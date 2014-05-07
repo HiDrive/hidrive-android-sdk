@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RandomThumbnail</string>
+    
+    <string name="button_link_title">Link with HiDrive</string>
+    <string name="button_unlink_title">Unlink</string>
+    
+    <string name="button_load_random_picture">Load random picture</string>
+    <string name="button_upload_picture">Upload picture from camera</string>
+    
+    <string name="text_no_pictures">No pictures in user directory</string>
+</resources>

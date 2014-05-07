@@ -1,0 +1,6 @@
+com.strato.hidrive.api
+com.strato.hidrive.api.connection.gateway
+com.strato.hidrive.api.connection.gateway.interfaces
+com.strato.hidrive.api.dal
+com.strato.hidrive.api.oauth
+com.strato.hidrive.api.session

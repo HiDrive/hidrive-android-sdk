@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FileManager</string>
+    <string name="action_new_folder">New folder</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_copy">Copy to tmp</string>
+    <string name="action_move">Move to tmp</string>
+    <string name="text_sharelink">sharelink</string>
+
+</resources>
