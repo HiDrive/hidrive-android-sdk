@@ -44,8 +44,8 @@ public class HiDriveRestAPITest extends AndroidTestCase {
 	
 	private static final int MILLISECONDS_IN_SECOND = 1000;
 	private static final String SAMPLE_FILE_DATA = "{\"ctime\" : 1398761384,\"mtime\" : 1398761384,\"writable\" : true,\"name\" : \"test\", \"members\" : [{\" name\" : \"abra\"}]}";
-	private static final String TEST_TEXT_FILE_CONTENT = TEST_FILE_NAME;
 	private static final String TEST_FILE_NAME = "test";
+	private static final String TEST_TEXT_FILE_CONTENT = TEST_FILE_NAME;
 
 	private HiDriveSession mockedSession;
 	private HiDriveRestClient restClient;

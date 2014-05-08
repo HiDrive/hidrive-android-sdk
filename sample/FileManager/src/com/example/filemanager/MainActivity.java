@@ -336,7 +336,7 @@ public class MainActivity extends Activity implements OnSharelinksLoadedListener
 
 	protected void setCurrentDirectory(RemoteFileInfo directory) {
 		this.currentDirectory = directory;
-		setTitle(currentDirectory.getDisplayPath());
+		setTitle(currentDirectory.getFullPath());
 		fileListAdapter.setFiles(directory.getChilds());
 		fileListAdapter.notifyDataSetChanged();
 	}
