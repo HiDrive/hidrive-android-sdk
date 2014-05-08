@@ -136,6 +136,6 @@ Main method there is `onPrepareOutputStream` where you should return an `OutputS
 
 ##Next steps##
 
-With this you should be equipped with everything you need to get started with the HiDrive API. If you're still not sure about something, the [community forum](hhttps://dev.strato.com/hidrive/community) is a great place to find information and get help from fellow developers. Good luck!
+With this you should be equipped with everything you need to get started with the HiDrive API. If you're still not sure about something, the [community forum](https://dev.strato.com/hidrive/community) is a great place to find information and get help from fellow developers. Good luck!
 
 
