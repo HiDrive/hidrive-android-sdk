@@ -10,7 +10,7 @@ This sample app is based on the RandomThumbnail sample app bundled with the SDK.
 
 1. To complete the tutorial, you'll need to be familiar with Android development.
 2. You need installed android SDK with minimal Android 2.1 (API 7) version of android platform API.
-3. You should have a `client id` and `client secret` (please visit [HiDrive developer portal](https://dev.strato.com/hidrive/) to obtain it).
+3. You should have a `client id` and `client secret` (please visit [HiDrive developer portal](https://dev.strato.com/hidrive/) to obtain it, using `app type = native` and `redirect URL = http://localhost:<PORT>`).
 
 
 ##Building and using the example app##
@@ -28,7 +28,7 @@ Simply add `HiDriveSDK.jar` and `gson-2.2.4.jar` to your apps java build path. T
 ##Authenticating your app##
 
 The HiDrive API uses OAuth v2. 
-You will need to provide your `client id` and `client secret`. Visit [HiDrive developer portal](https://dev.strato.com/) to obtain it. Once you have your client id and client secret, you can create the `HiDriveSession` object for your app. To do this, add the following in your code  
+You will need to provide your `client id` and `client secret`. Visit [HiDrive developer portal](https://dev.strato.com/) to obtain it (using `app type = native` and `redirect URL = http://localhost:<PORT>`). Once you have your client id and client secret, you can create the `HiDriveSession` object for your app. To do this, add the following in your code  
 ```
 HiDriveSession session = new HiDriveSession(getApplicationContext(), CLIENT_ID, CLIENT_SECRET, hidriveSessionListener);
 ```
